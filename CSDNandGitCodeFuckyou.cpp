@@ -12,7 +12,7 @@ void blockWebsite(const std::string& website, std::ofstream& hostsFile) {
 int main() {
     std::string hostsPath = "C:\\Windows\\System32\\drivers\\etc\\hosts";
 
-    std::vector<std::string> websitesToBlock = {"csdn.com", "gitcode.com"};
+    std::vector<std::string> websitesToBlock = {"csdn.net", "gitcode.com"};
 
   
     std::ofstream hostsFile(hostsPath, std::ios::app);
